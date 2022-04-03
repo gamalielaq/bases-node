@@ -1,0 +1,19 @@
+{
+  "name": "bases-node",
+  "version": "0.0.1",
+  "description": "Es un simple tabla de multiplicar con un archivo de texto",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:dev": "nodemon index.js",
+    "start": "node index.js",
+    "base3": "node app --base=3"
+  },
+  "keywords": [],
+  "author": "Gamaliel",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.4.0"
+  }
+}
